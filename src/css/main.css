@@ -1,0 +1,11 @@
+.hero {
+    background-image: url("../assets/image/popcorn.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.word {
+    background-image: url("../assets/image/word.png");
+    background-size: cover;
+    background-position: center;
+}
