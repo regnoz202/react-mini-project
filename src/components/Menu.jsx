@@ -3,18 +3,18 @@ import "flowbite";
 
 export default function Menu(props) {
   return (
-    <div className={props.class}>
+    <div className={props.className}>
       <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-      <div class="z-40">
-        <div className="flex">
-          <div className="w-44 cursor-pointer flex-initial bg-red-300 p-6 mx-4 rounded-md text-center shadow-lg hover:bg-red-700">
-            <i class="fa-solid fa-film fa-xl"></i>
+      <div className="z-40">
+        <div className="flex flex-wrap">
+          <div className="w-44 cursor-pointer m-1 flex-initial bg-red-300 p-6 mx-4 rounded-md text-center shadow-lg hover:bg-red-700">
+            <i className="fa-solid fa-film fa-xl"></i>
           </div>
-          <div className="w-44 cursor-pointer flex-initial bg-red-300 p-6 mx-4 rounded-md text-center shadow-lg hover:bg-red-700">
-          <i class="fa-solid fa-ticket fa-xl"></i>
+          <div className="w-44 cursor-pointer m-1 flex-initial bg-red-300 p-6 mx-4 rounded-md text-center shadow-lg hover:bg-red-700">
+          <i className="fa-solid fa-ticket fa-xl"></i>
           </div>
-          <div className="w-44 cursor-pointer flex-initial bg-red-300 p-6 mx-4 rounded-md text-center shadow-lg hover:bg-red-700">
-          <i class="fa-solid fa-utensils fa-xl"></i>
+          <div className="w-44 cursor-pointer m-1 flex-initial bg-red-300 p-6 mx-4 rounded-md text-center shadow-lg hover:bg-red-700">
+          <i className="fa-solid fa-utensils fa-xl"></i>
           </div>
         </div>
       </div>

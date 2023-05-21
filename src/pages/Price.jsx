@@ -7,7 +7,7 @@ export default function Price() {
   return (
     <div>
       <Navbar />
-      <CardPrice class="flex p-2 justify-center pt-28 pb-8 bg-red-700"/>
+      <CardPrice className="flex p-2 justify-center pt-28 pb-8 bg-red-700"/>
       <Footer/>
     </div>
   )
