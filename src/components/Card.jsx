@@ -14,12 +14,15 @@ export default function Card(props) {
         </a>
         <div className="p-5">
           <a href="#">
-            <h5 className="mb-2 h-24 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="h-24 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {props.judul}
             </h5>
           </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            {props.rate}
+          <p className="mb-3 h-24 overflow-hidden font-normal text-gray-700 dark:text-gray-400">
+            {props.desc}
+          </p>
+          <p className="mb-3 font-bold text-gray-700 dark:text-gray-400">
+            Rating Score: {props.rate}
           </p>
           <a
             href="#"

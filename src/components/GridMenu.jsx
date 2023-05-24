@@ -13,6 +13,7 @@ export default function GridMenu(props) {
     });
   }, []);
 
+  console.log(movies)
   const ListMovie = () => {
     return movies.map((movie, i) => {
       return (
@@ -20,6 +21,7 @@ export default function GridMenu(props) {
           <Card
             judul={movie.title}
             rate={movie.vote_average}
+            desc={movie.overview}
             image={`${import.meta.env.VITE_BASE_IMG_URL}/${movie.poster_path}`}
           />
         </div>
