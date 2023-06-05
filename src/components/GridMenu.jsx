@@ -13,7 +13,7 @@ export default function GridMenu(props) {
     });
   }, []);
 
-  console.log(movies)
+  
   const ListMovie = () => {
     return movies.map((movie, i) => {
       return (
